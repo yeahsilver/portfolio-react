@@ -106,6 +106,21 @@ a:hover {
     color: var(--color-bg);
 }
 
+.btn-inactive {
+    cursor: default;
+    background-color: rgba(204, 204, 204, 0.3);
+    color: var(--color-bg-variant);
+    border-color: transparent;
+}
+
+.btn-inactive:hover {
+    cursor: default;
+    background-color: rgba(204, 204, 204, 0.3);
+    color: var(--color-bg-variant);
+    border-color: transparent;
+}
+
+
 img {
     display: block;
     width: 100%;
