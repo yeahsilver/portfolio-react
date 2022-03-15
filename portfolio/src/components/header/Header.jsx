@@ -2,7 +2,6 @@ import React from 'react'
 import './header.css'
 import ContactButton from './ContactButton'
 import ME from '../../assets/me.png'
-import SocialButton from './SocialButton'
 
 const Header = () => {
     return (
