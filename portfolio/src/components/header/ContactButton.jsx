@@ -1,7 +1,7 @@
 import React from 'react'
-import {BsLinkedin} from 'react-icons/bs';
-import {FaGithub} from 'react-icons/fa';
-import {SiNaver} from 'react-icons/si';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { SiNaver } from 'react-icons/si';
 
 const ContactButton = () => {
     return (
