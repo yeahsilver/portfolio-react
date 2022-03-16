@@ -32,6 +32,7 @@ header {
 .activity__icon {
     color: white
 }
+
 .activity__swipe-slide:nth-child(1n) {
     background-color: var(--color-bg-variant);
 }

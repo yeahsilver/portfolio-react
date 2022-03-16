@@ -29,29 +29,38 @@ const Awards = () => {
                           modifier: 1,
                           slideShadows: true,
                         }}
-                        pagination={true}
+                        pagination={false}
                         modules={[EffectCoverflow, Pagination]}
                     >
-                        <SwiperSlide className="awards-swiper-slide">
-                            <p>안녕</p>
-                        </SwiperSlide>
-                        <SwiperSlide className="awards-swiper-slide">
-                            <p>안녕</p>
-                        </SwiperSlide>
-                        <SwiperSlide className="awards-swiper-slide">
-                            <p>안녕</p>
-                        </SwiperSlide>
-                        <SwiperSlide className="awards-swiper-slide">
-                            <p>안녕</p>
-                        </SwiperSlide>
-                        <SwiperSlide className="awards-swiper-slide">
-                            <p>안녕</p>
-                        </SwiperSlide>
+                       {
+                           data.map(( {type, content, date}, index) => {
+                            return (
+                                <SwiperSlide key={index} className="awards-swiper-slide">
+                                    <div className="award">
+                                        <div className="award__icon">
+                                            { type==="award" ? <BsFillAwardFill style={awardStyle} /> : <FaCertificate style={certificateStyle} />}
+                                        </div>
+    
+                                        <h3 className="award__name"> { content } </h3>
+                                        <small className="award__date"> {date} </small>
+                                    </div>
+                                </SwiperSlide>
+                            )
+                        })
+                       }
 
                     </Swiper>
                 </div>
         </section>
     )
+}
+
+const awardStyle = {
+    color: "yellow"
+}
+
+const certificateStyle = {
+    color: "orange"
 }
 
 const data = [
@@ -62,11 +71,11 @@ const data = [
     },
     {
         type: "award",
-        content: "건국대학교 창업지원단 X 칭화대학 기술지주 KU 이너베이션 해커톤 3위",
+        content: "건국대학교 X 칭화대학 KU 이노베이션 해커톤 3위",
         date: "2021.01"
     }, 
     {
-        type: "ceritificate",
+        type: "certificate",
         content: "SQLD 취득",
         date: "2020.10.06"
     },

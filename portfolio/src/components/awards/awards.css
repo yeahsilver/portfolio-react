@@ -23,6 +23,19 @@
   background-color: var(--color-bg-variant);
 }
 
+.award__icon {
+  color: white;
+  padding: 3.5rem 0 1rem 0 ;
+}
+
+.award h3 {
+  padding: 0 3rem 0 3rem;
+}
+
+.award small {
+  color: lightgray;
+}
+
 
 /* .awards-swiper-slide div {
   display: block;
