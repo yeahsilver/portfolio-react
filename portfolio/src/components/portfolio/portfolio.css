@@ -8,6 +8,7 @@
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
+    height: 25rem;
     transition: var(--transition);
 }
 
@@ -28,7 +29,14 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0.5rem;
+}
+
+.portfolio__icon {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
 }
 
 .portfolio__item-cta {

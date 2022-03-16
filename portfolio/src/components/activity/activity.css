@@ -1,0 +1,74 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.activity__swiper {
+    width: 15rem;
+    height: 20rem;
+}
+
+.activity__swipe-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.activity small {
+  color: lightgray;
+}
+
+.activity__icon {
+    color: white
+}
+.activity__swipe-slide:nth-child(1n) {
+    background-color: var(--color-bg-variant);
+}
+
+.activity__swipe-slide:nth-child(2n) {
+    background-color: rgb(0, 140, 255);
+}
+  
+.activity__swipe-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+}
+  
+.activity__swipe-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+  
+.activity__swipe-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+  
+.activity__swipe-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+  
+.activity__swipe-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+  
+.activity__swipe-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+  
+.activity__swipe-slide:nth-child(9n) {
+  background-color: rgb(255, 56, 159);
+}
+  
+.activity__swipe-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+  

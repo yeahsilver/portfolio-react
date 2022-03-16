@@ -37,7 +37,6 @@
 
 .about__cards {
     display: grid;
-    background-color: red;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
