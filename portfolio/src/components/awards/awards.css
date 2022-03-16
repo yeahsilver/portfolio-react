@@ -1,5 +1,5 @@
 .awards {
-  width: 100%;
+  width: 85%;
   padding-bottom: 4rem;
 }
 
@@ -28,6 +28,7 @@
   padding: 3.5rem 0 1rem 0 ;
 }
 
+
 .award h3 {
   padding: 0 3rem 0 3rem;
 }
@@ -36,8 +37,30 @@
   color: lightgray;
 }
 
+@media screen and (max-width: 1024px) {
+  .award {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+  }
 
-/* .awards-swiper-slide div {
-  display: block;
-  width: 100%;
-} */
+  .awards-swiper {
+    height: 25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .award {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+  }
+
+  .awards-swiper {
+    height: 25rem;
+  }
+}
