@@ -12,7 +12,6 @@ const App = () => {
     return(
         <>
         <Header/>
-        <Nav />
         <About />
         <Awards />
         <Experience />
