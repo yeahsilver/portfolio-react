@@ -6,9 +6,9 @@ import { SiNaver } from 'react-icons/si';
 const ContactButton = () => {
     return (
         <div className="contact__button">
-        <a href="https://linkedin.com"><BsLinkedin /></a>
-        <a href="https://github.com"><FaGithub /></a>
-        <a href="https://naver.com"><SiNaver /></a>
+        <a href="https://www.linkedin.com/in/yeeun-heo-23a722201/"><BsLinkedin /></a>
+        <a href="https://github.com/yeahsilver"><FaGithub /></a>
+        <a href="https://blog.naver.com/0_0yeggy"><SiNaver /></a>
         </div>
     )
 }

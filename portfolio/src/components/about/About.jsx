@@ -1,7 +1,10 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me.png'
-import { FaAward } from 'react-icons/fa'
+import ME_BG from '../../assets/me_background.png'
+import { FaAward, FaSchool } from 'react-icons/fa'
+import { AiFillMail } from 'react-icons/ai'
+import { BsFillChatFill } from 'react-icons/bs'
 import { FiUsers } from 'react-icons/fi'
 import {VscFolderLibrary } from 'react-icons/vsc'
 
@@ -15,7 +18,7 @@ const About = () => {
                 <div className="about__me__container">
                 <div className="about__me">
                     <div className="about__me-image">
-                        <img src={ME} alt="About"/>
+                        <img src={ME_BG} alt="About"/>
                     </div>
                 </div>
                 </div>
@@ -23,21 +26,21 @@ const About = () => {
                 <div className="about__content">
                     <div clasName="about__cards">
                         <article className="about__card">
-                            <FaAward className='about__icon'/>
-                            <h5>Experience</h5>
-                            <small>Junior Developer</small>
+                            <BsFillChatFill className='about__icon'/>
+                            <h5>카카오브레인 (Kakaobrain)</h5>
+                            <small>8월 입사 예정</small>
                         </article>
 
                         <article className="about__card">
-                            <FiUsers className='about__icon'/>
-                            <h5>Client</h5>
-                            <small>iOS Developer</small>
+                            <FaSchool className='about__icon'/>
+                            <h5>숭실대학교 소프트웨어학부</h5>
+                            <small>2018.03 ~</small>
                         </article>
 
                         <article className="about__card">
-                            <VscFolderLibrary className='about__icon'/>
-                            <h5>Projects</h5>
-                            <small>10+ Completed</small>
+                            <AiFillMail className='about__icon'/>
+                            <h5>yeeun.dev@gmail.com</h5>
+                            <small>이메일</small>
                         </article>
                     </div>
                 </div>
