@@ -6,7 +6,6 @@ import Awards from './components/awards/Awards'
 import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Activity from './components/activity/Activity'
-import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 const App = () => {
@@ -19,7 +18,6 @@ const App = () => {
         <Experience />
         <Portfolio />
         <Activity />
-        <Contact />
         <Footer />
         </>
     )
