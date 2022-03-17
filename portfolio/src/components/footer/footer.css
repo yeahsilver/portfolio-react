@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 footer {
-    background: var(--color-primary);
     padding: 3rem 0;
     text-align: center;
     font-size: 0.9rem;
@@ -7,15 +8,16 @@ footer {
 }
 
 footer a {
-    color: var(--color-bg);
+    color: white;
 }
 
 .footer__logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     padding-top: 3rem;
     margin-bottom: 2rem;
     display: inline-block;
+    font-family: 'Libre Barcode 39 Text', cursive;
 }
 
 .links {

@@ -11,11 +11,27 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.header__container h1 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+.header__container h5 {
+    color: white;
+}
+
 .contact__button {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+
+.contact__button a {
+    color: white;
+}
+
+.contact__button a:hover {
+    color: var(--color-primary);
 }
 
 .social__button {
@@ -45,7 +61,7 @@ header {
 }
 
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-white), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
