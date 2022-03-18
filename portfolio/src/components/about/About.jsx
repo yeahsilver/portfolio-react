@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me.png'
 import ME_BG from '../../assets/me_background.png'
 import { FaAward, FaSchool } from 'react-icons/fa'
 import { AiFillMail } from 'react-icons/ai'
@@ -27,7 +26,7 @@ const About = () => {
                     <div clasName="about__cards">
                         <article className="about__card">
                             <BsFillChatFill className='about__icon'/>
-                            <h5>카카오브레인 (Kakaobrain)</h5>
+                            <h5>카카오브레인 ( kakaobrain )</h5>
                             <small>8월 입사 예정</small>
                         </article>
 

@@ -28,7 +28,9 @@ const Portfolio = () => {
                                 <img src={image} alt=""/>
                             </div>
 
+                            <div className="portfolio__item-title">
                                 <h3>{title}</h3>
+                            </div>
                             
                             <div className="portfolio__item-cta">
                                 <a href={summary==="" ? null : summary} className={summary==="" ? "btn btn-inactive" : "btn"} target='_blank'>Summary</a>

@@ -17,7 +17,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        white,
+        var(--color-primary),
         transparent
     );
     display: grid;

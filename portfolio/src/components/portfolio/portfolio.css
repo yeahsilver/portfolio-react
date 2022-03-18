@@ -28,8 +28,11 @@
     height: 100%
 }
 
-.portfolio__item h3 {
-    margin: 1.2rem 0 0.5rem;
+.portfolio__item-title {
+    height: 5vh;
+    margin: 1.2rem 0 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio__icon {
