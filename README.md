@@ -26,4 +26,4 @@
 - [My nginx server is not working properly (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy/222677259517)
 </br>
 
-### All feedbacks are really welcomed, so feel free to write issues that my project would be fix or upgraded!
+### All feedbacks are really welcomed!
