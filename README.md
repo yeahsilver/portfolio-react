@@ -19,7 +19,7 @@
 - [Creating an Instance with using Oracle Cloud (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy/222453433883)
 - [Creating and Getting SSH value based on MAC OS (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy/222453440767)
 - [Setting a Virtual Host of Nginx (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy/222454902579)
-- [Releasing the React build folder in Nginx (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy)
+- [Releasing React Code to Nginx (Korean Only 🇰🇷)](https://blog.naver.com/0_0yeggy)
 </br>
 
 ### 🔥 Troubleshooting
