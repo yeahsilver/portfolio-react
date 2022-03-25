@@ -1,4 +1,4 @@
-# ✨ Yeeun's Web Portpolio based on React ✨
+# ✨ Yeeun's Web Portfolio based on React ✨
 
 </br>
 
