@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import Header from './components/header/Header'
-import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Awards from './components/awards/Awards'
 import Experience from './components/experience/Experience'
@@ -20,7 +19,7 @@ const App = () => {
     return(
         <>
             <Header/>
-            <About />
+            <About/>
             <Awards />
             <Experience />
             <Portfolio />
