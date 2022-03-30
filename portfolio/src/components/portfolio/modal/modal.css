@@ -1,0 +1,29 @@
+.modal__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__image {
+    border-radius: 1.5rem;
+    height: 20%;
+    border: 0.15rem solid lightgray;
+    overflow: hidden;
+}
+
+.modal__container > img {
+    width: 100%;
+    height: 100%
+}
+
+.modal__body {
+    padding: 1rem;
+}
+
+.modal__title {
+    font-size: 2rem;
+    color: white;
+}
+
+.modal__content h4 {
+    white-space: pre-wrap;
+}
