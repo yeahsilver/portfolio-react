@@ -1,6 +1,6 @@
 import React from 'react';
 import "./modal.css"
-import "./HorizontalLine";
+import "../../../atomics/horizontal-line/HorizontalLine";
 
 import { AiFillApple, AiFillHtml5 } from 'react-icons/ai';
 import { FaSwift, FaReact } from 'react-icons/fa';
@@ -8,13 +8,13 @@ import { SiTailwindcss } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
 import { render } from '@testing-library/react';
 
-import HorizontalLine from './HorizontalLine';
-import ModalSection from './modalSection/ModalSection';
+import Tag from '../../../atomics/Tag/Tag';
+import HorizontalLine from '../../../atomics/horizontal-line/HorizontalLine';
+import ModalSection from '../../../atomics/ListTitle/ListTitle';
 
 const Modal = ({ props }) => {
     const stackItems = props.stacks.map((stack) => 
-        <a key={stack} className="modal__stack"> {stack} </a>
-        
+        <Tag text={stack} />
     )
     return (
         <div id="modal" className="modal__container">

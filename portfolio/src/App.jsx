@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import Header from './components/header/Header'
-import About from './components/about/About'
-import Awards from './components/awards/Awards'
-import Experience from './components/experience/Experience'
-import Portfolio from './components/portfolio/Portfolio'
-import Activity from './components/activity/Activity'
-import Footer from './components/footer/Footer'
+import Header from './components/molecules/header/Header'
+import About from './components/molecules/about/About'
+import Awards from './components/molecules/awards/Awards'
+import Experience from './components/molecules/experience/Experience'
+import Portfolio from './components/molecules/portfolio/Portfolio'
+import Activity from './components/molecules/activity/Activity'
+import Footer from './components/molecules/footer/Footer'
 
 const App = () => {
 

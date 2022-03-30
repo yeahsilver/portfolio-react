@@ -2,7 +2,7 @@ import React from 'react'
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithub } from 'react-icons/fa';
 import { SiNaver, SiGmail } from 'react-icons/si';
-import './header.css'
+import './contactButton.css'
 
 const ContactButton = () => {
     return (

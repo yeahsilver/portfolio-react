@@ -1,0 +1,18 @@
+
+.tag__container {
+    display: inline-block;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 1rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-right: 0.3rem;
+
+    font-size: 0.9rem;
+}
+
+.tag__container:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME_BG from '../../assets/me_background.png'
+import ME_BG from '../../../assets/me_background.png'
 import { FaAward, FaSchool } from 'react-icons/fa'
 import { AiFillMail } from 'react-icons/ai'
 import { BsFillChatFill } from 'react-icons/bs'

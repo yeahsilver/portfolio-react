@@ -3,14 +3,14 @@ import './portfolio.css'
 import Modal from "react-modal";
 import ModalContent from './modal/Modal';
 
-import IMG1 from '../../assets/bodymood.png';
-import IMG2 from '../../assets/wekit.png';
-import IMG3 from '../../assets/camtact.png';
-import IMG4 from '../../assets/imonitor.png';
-import IMG5 from '../../assets/mobi.png';
-import IMG6 from '../../assets/openstudy.png';
-import IMG7 from '../../assets/support.png';
-import IMG8 from '../../assets/patent.png';
+import IMG1 from '../../../assets/bodymood.png';
+import IMG2 from '../../../assets/wekit.png';
+import IMG3 from '../../../assets/camtact.png';
+import IMG4 from '../../../assets/imonitor.png';
+import IMG5 from '../../../assets/mobi.png';
+import IMG6 from '../../../assets/openstudy.png';
+import IMG7 from '../../../assets/support.png';
+import IMG8 from '../../../assets/patent.png';
 
 const Portfolio = () => {
     const [isModalOpen, setModalOpen] = useState(false);

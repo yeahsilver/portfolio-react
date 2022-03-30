@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
-import ContactButton from './ContactButton'
-import ME from '../../assets/me.png'
+import ContactButton from '../../atomics/ContactButton/ContactButton'
+import ME from '../../../assets/me.png'
 
 const Header = () => {
     return (

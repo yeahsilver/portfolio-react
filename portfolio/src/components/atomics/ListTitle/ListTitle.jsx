@@ -1,5 +1,5 @@
 import React from 'react';
-import "./modalSection.css";
+import "./listTitle.css";
 
 const ModalSection = ( {text} ) => {
     return (

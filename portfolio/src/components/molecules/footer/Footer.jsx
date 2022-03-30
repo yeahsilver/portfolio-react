@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import ContactButton from '../header/ContactButton'
+import ContactButton from '../../atomics/ContactButton/ContactButton'
 const Footer = () => {
     return (
         <footer>

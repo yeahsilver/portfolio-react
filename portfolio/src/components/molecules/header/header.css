@@ -19,38 +19,6 @@ header {
     color: white;
 }
 
-.contact__button {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.2rem;
-    justify-content: center;
-}
-
-.contact__button a {
-    color: white;
-}
-
-.contact__button a:hover {
-    color: var(--color-primary);
-}
-
-.social__button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
-}
-
-.social__button::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
-
 .image__container {
     text-align: center;
     justify-content: center;

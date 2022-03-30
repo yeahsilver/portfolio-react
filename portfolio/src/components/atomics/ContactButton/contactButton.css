@@ -1,0 +1,15 @@
+
+.contact__button {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.contact__button a {
+    color: white;
+}
+
+.contact__button a:hover {
+    color: var(--color-primary);
+}
