@@ -10,7 +10,7 @@ import { render } from '@testing-library/react';
 
 import Tag from '../../../atomics/Tag/Tag';
 import HorizontalLine from '../../../atomics/horizontal-line/HorizontalLine';
-import ModalSection from '../../../atomics/ListTitle/ListTitle';
+import ListTitle from '../../../atomics/ListTitle/ListTitle';
 
 const Modal = ({ props }) => {
     const stackItems = props.stacks.map((stack) => 
@@ -22,18 +22,28 @@ const Modal = ({ props }) => {
                 <img src={props.image} alt=""/>
             </div>
 
-            <div className="modal__body">
-                <a className="modal__title">{props.title}</a>
-                <div className="modal__stacks">
-                    { stackItems }
+            <div className="modal__header">
+                    <a className="modal__title">{props.title}</a>
+                    <a className="modal__date">{props.date}</a>
+                    <div className="modal__stacks">
+                        { stackItems }
+                    </div>
+                    <HorizontalLine />
                 </div>
-                <HorizontalLine />
 
+            <div className="modal__body">
                 <div className="modal__content">
-                    <ModalSection text= "개요" />
+                    <ListTitle text= "개요" />
                     <h4>{props.content}</h4>
                 </div>
                 
+                { props.github==="" ? null : 
+                     <div className="modal__link">
+                        <ListTitle text="링크" />
+                        <h4>{props.github}</h4>
+                    </div>
+                }
+               
             </div>
         </div>
     )

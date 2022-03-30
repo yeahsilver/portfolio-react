@@ -6,11 +6,11 @@ const HorizontalLine = ({ text }) => {
         textAlign: "center",
         borderBottom: "1px solid #aaa",
         lineHeight: "0.1rem",
-        margin: "10px 0 20px",
+        margin: "1rem 0 0.5rem",
     }
 
     const spanStyle = {
-        padding: "0 10px",
+        padding: "0 1rem",
     }
 
     return (

@@ -5,7 +5,7 @@
 
 .modal__image {
     border-radius: 1.5rem;
-    height: 20%;
+    height: 50%;
     border: 0.15rem solid lightgray;
     overflow: hidden;
 }
@@ -15,8 +15,19 @@
     height: 100%
 }
 
+.modal__header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0rem 1rem;
+}
+
 .modal__body {
     padding: 1rem;
+}
+
+.modal__body h4 {
+    white-space: pre-wrap;
+    padding: 0 2rem 0rem 2rem;
 }
 
 .modal__title {
@@ -33,9 +44,4 @@
 
 .modal__stacks h5 {
     margin-right: 0.5rem;
-}
-
-.modal__content h4 {
-    white-space: pre-wrap;
-    padding: 0 2rem 0rem 2rem;
 }
