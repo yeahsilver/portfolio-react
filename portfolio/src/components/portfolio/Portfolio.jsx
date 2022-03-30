@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import './portfolio.css'
+import Modal from "react-modal";
+
 import IMG1 from '../../assets/bodymood.png';
 import IMG2 from '../../assets/wekit.png';
 import IMG3 from '../../assets/camtact.png';
@@ -8,12 +10,16 @@ import IMG5 from '../../assets/mobi.png';
 import IMG6 from '../../assets/openstudy.png';
 import IMG7 from '../../assets/support.png';
 import IMG8 from '../../assets/patent.png';
+
 import { AiFillApple, AiFillHtml5 } from 'react-icons/ai';
 import { FaSwift, FaReact } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 import { DiCss3 } from 'react-icons/di';
 
 const Portfolio = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+    const [modalData, setModalData] = useState(null);
+
     return (
         <section id="portfolio">
         <h5>My Recent Work</h5>
@@ -21,20 +27,61 @@ const Portfolio = () => {
 
         <div className="container portfolio__container">
            {
-               data.map(( { id, image, title, summary, github, stacks }) => {
+               data.map((value) => {
                    return (
-                        <article key={id} className="portfolio__item">
+                        <article key={value.id} className="portfolio__item">
                             <div className="portfolio__item-image">
-                                <img src={image} alt=""/>
+                                <img src={value.image} alt=""/>
                             </div>
 
                             <div className="portfolio__item-title">
-                                <h3>{title}</h3>
+                                <h3>{value.title}</h3>
                             </div>
                             
                             <div className="portfolio__item-cta">
-                                <a href={summary==="" ? null : summary} className={summary==="" ? "btn btn-inactive" : "btn"} target='_blank'>Summary</a>
-                                <a href={github==="" ? null : github} className={github==="" ? "btn btn-inactive" : "btn btn-primary"} target="_blank">Github</a>
+                                <a 
+                                    onClick={ () => {
+                                            setModalOpen(true);
+                                            setModalData(value);
+                                        }
+                                    } 
+
+                                    className={value.summary==="" ? "btn btn-inactive" : "btn"} 
+                                    target='_blank'
+                                > Summary </a>
+                               <Modal 
+                                    isOpen={isModalOpen}
+                                    ariaHideApp={false}
+                                    onRequestClose={() => setModalOpen(false)}
+                                    style ={{
+                                        overlay: {
+                                            position: "fixed",
+                                            top: 0,
+                                            left: 0,
+                                            right: 0,
+                                            bottom: 0,
+                                            backgroundColor: "rgba(15, 15, 15, 0.2)",
+                                        },
+                                        content: {
+                                            position: "absolute",
+                                            top: "60px",
+                                            left: "35%",
+                                            width: "30%",
+                                            height: "80%",
+                                            border: "1px solid #ccc",
+                                            bacgrkound: "#fff",
+                                            overflow: "auto",
+                                            WebkitOverflowScrolling: "touch",
+                                            borderRadius: "4px",
+                                            outline: "none",
+                                            padding: "20px"
+                                        }
+                                    }}
+                               >
+                                   <h2 style={{color: "red"}}>{modalData.title}</h2>
+                                   </Modal>
+
+                                <a href={value.github==="" ? null : value.github} className={value.github==="" ? "btn btn-inactive" : "btn btn-primary"} target="_blank">Github</a>
                             </div>
                         </article>
                    )
@@ -44,6 +91,8 @@ const Portfolio = () => {
         </section>
     )
 }
+
+const modalOverlayStyle = {}
 
 const data = [
     {
