@@ -103,9 +103,9 @@ const data = [
         id: 2,
         image: IMG2,
         title: "We keep in touch, WEKIT",
-        content: `해당 프로젝트는 나 홀로 목표 달성을 하기 힘들고 막막하신 분들, **라이프 개선의 의지**를 가진 수 많은 사람들을 위한 플랫폼이다.
-**4~6명으로 이루어진 소수 정예 그룹을 생성**하여 채팅 기능을 통해 서로 소통하며 목표 달성에 성공하자는 취지로 개발하였다.
-또한 Moment라는 인증 일기 기능을 가지고 있어, **기록하고 싶은 순간들을 등록**하여, 지금까지 등록한 인증 일기를 한번에 모아볼 수 있다.`,
+        content: `해당 프로젝트는 나 홀로 목표 달성을 하기 힘들고 막막하신 분들, 라이프 개선의 의지를 가진 수 많은 사람들을 위한 플랫폼이다.
+4~6명으로 이루어진 소수 정예 그룹을 생성하여 채팅 기능을 통해 서로 소통하며 목표 달성에 성공하자는 취지로 개발하였다.
+또한 Moment라는 인증 일기 기능을 가지고 있어, 기록하고 싶은 순간들을 등록하여, 지금까지 등록한 인증 일기를 한번에 모아볼 수 있다.`,
         github: "",
         summary: "https://loud-icebreaker-5aa.notion.site/We-Keep-in-Touch-WEKIT-ddad61d6ffae4f15ac9474649a4812b1",
         stacks: ["iOS", "Swift"]
@@ -116,7 +116,7 @@ const data = [
         title: "원격 회전캠 비대면 감독 웹 플랫폼, Camtact",
         content: `부정 행위들은 기존에 있는 웹캠을 이용한 시험 응시자의 부정행위를 감지하는 플랫폼들을 이용하여 방지할 수 있다. 하지만 기존 웹캠은 보지 못하는 구역이 고정되어 있다는 한계가 있다. 발견하기 힘들고 정확한 증거가 없어 발각되지 않았을 뿐 이를 이용한 부정 행위는 여전히 존재한다. 
 
-위의 문제를 해결하기 위해  **360도 회전하는 웹캠**을 통해 이전의 웹캠의 한계를 보완함으로써 **비대면 시험의 공정성을 확보**하기 위해 프로젝트를 고안하였다.`,
+위의 문제를 해결하기 위해 360도 회전하는 웹캠을 통해 이전의 웹캠의 한계를 보완함으로써 비대면 시험의 공정성을 확보하기 위해 프로젝트를 고안하였다.`,
         github: "https://github.com/2020pingus/camtact_document",
         summary: "https://loud-icebreaker-5aa.notion.site/Camtact-14aa256e7ab8404cae72d737aa5e2168",
         stacks: ["react", "tailwind"]
@@ -145,7 +145,7 @@ const data = [
         id: 6,
         image: IMG6,
         title: "비대면 멘토링 웹사이트, OpenStudy",
-        content: `온라인상에서 같은 주제를 가지고 공개 또는 비공개 스터디 그룹을 운영하여 사용자들에게 보다 많은 지식을 공유할 수 있는 플랫폼이다.`,
+        content: "온라인상에서 같은 주제를 가지고 공개 또는 비공개 스터디 그룹을 운영하여 사용자들에게 보다 많은 지식을 공유할 수 있는 플랫폼이다.",
         github: "https://github.com/HamInKyou/openstudy",
         summary: "https://loud-icebreaker-5aa.notion.site/Open-Study-d3559845c072421bb6d94aca1a1ed6e5",
         stack: ["html", "CSS", "Bootstrap"]

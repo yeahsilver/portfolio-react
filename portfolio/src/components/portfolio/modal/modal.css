@@ -24,6 +24,36 @@
     color: white;
 }
 
+.modal__stacks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0 0.2rem 0;
+}
+
+.modal__stacks h5 {
+    margin-right: 0.5rem;
+}
+
+.modal__stack {
+    display: inline-block;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 1rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    margin-right: 0.3rem;
+
+    font-size: 0.9rem;
+}
+
+.modal__stack:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
 .modal__content h4 {
     white-space: pre-wrap;
+    padding: 0 2rem 0rem 2rem;
 }
