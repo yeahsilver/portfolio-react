@@ -1,6 +1,7 @@
 .modal__container {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .modal__image {
@@ -27,7 +28,7 @@
 
 .modal__body h4 {
     white-space: pre-wrap;
-    padding: 0 2rem 0rem 2rem;
+    padding: 0 2rem 0rem 1rem;
 }
 
 .modal__title {
