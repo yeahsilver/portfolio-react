@@ -8,7 +8,7 @@
 <h3 align="center">🚧 Caution 🚧 </h3> 
 
 <h4 align="center"> There is an error in the middle of connecting btw react and node js, so I am fixing that problem. </h4>
-<h4 align="center"> So, the given URL below is not working properly </h4>
+<h4 align="center"> I ask for your understanding that the given URL below is not working properly </h4>
 
 <h3 align="center">https://yesilver.kr</h3>
 
