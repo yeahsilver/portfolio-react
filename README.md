@@ -36,6 +36,7 @@
 
 ### Reference
 - [Applicating SSL on My Domain](https://velog.io/@prayme/ubuntu에-nginx-설치하고-ssl-적용하기)
-
+- [Crawling a Webpage using NodeJS](https://www.youtube.com/watch?v=xbehh8lWy_A)
+- [release NodeJS to Nginx](https://songwonseok.github.io/study/Deploy2/)
 
 <h3 align="center">⭐️ All feedbacks are really welcomed ⭐️</h3>
