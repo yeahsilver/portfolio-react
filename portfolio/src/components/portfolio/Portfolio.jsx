@@ -8,10 +8,6 @@ import IMG5 from '../../assets/mobi.png';
 import IMG6 from '../../assets/openstudy.png';
 import IMG7 from '../../assets/support.png';
 import IMG8 from '../../assets/patent.png';
-import { AiFillApple, AiFillHtml5 } from 'react-icons/ai';
-import { FaSwift, FaReact } from 'react-icons/fa';
-import { SiTailwindcss } from 'react-icons/si';
-import { DiCss3 } from 'react-icons/di';
 
 const Portfolio = () => {
     return (
@@ -33,8 +29,8 @@ const Portfolio = () => {
                             </div>
                             
                             <div className="portfolio__item-cta">
-                                <a href={summary==="" ? null : summary} className={summary==="" ? "btn btn-inactive" : "btn"} target='_blank'>Summary</a>
-                                <a href={github==="" ? null : github} className={github==="" ? "btn btn-inactive" : "btn btn-primary"} target="_blank">Github</a>
+                                <a href={summary==="" ? null : summary} className={summary==="" ? "btn btn-inactive" : "btn"}>Summary</a>
+                                <a href={github==="" ? null : github} className={github==="" ? "btn btn-inactive" : "btn btn-primary"}>Github</a>
                             </div>
                         </article>
                    )

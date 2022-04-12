@@ -43,14 +43,6 @@ const Activity = () => {
     )
 }
 
-let awardStyle = {
-    color: "yellow"
-}
-
-let certificateStyle = {
-    color: "orange"
-}
-
 const data = [
     {
         content: "IIPT K-SW Square Purdue University 프로그램 (이수 예정)",

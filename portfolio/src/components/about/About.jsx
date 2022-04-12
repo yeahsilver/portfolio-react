@@ -1,11 +1,9 @@
 import React from 'react'
 import './about.css'
 import ME_BG from '../../assets/me_background.png'
-import { FaAward, FaSchool } from 'react-icons/fa'
+import { FaSchool } from 'react-icons/fa'
 import { AiFillMail } from 'react-icons/ai'
 import { BsFillChatFill } from 'react-icons/bs'
-import { FiUsers } from 'react-icons/fi'
-import {VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
     return (
