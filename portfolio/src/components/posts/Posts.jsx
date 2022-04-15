@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './posts.css';
 
+import IMG1 from '../../assets/bodymood.png';
+
 axios.defaults.withCredentials = true;
 
 const Posts = () => {
@@ -64,8 +66,16 @@ const Posts = () => {
                             posts.map(({id, title, date, category, image, content, url}) => {
                                 return(
                                     <article className="posts__card" key={id}>
-                                        <h5>{title}</h5>
-                                        <small>{content}</small>
+                                        <div className="posts__card__container">
+                                            <div className="posts__image">
+                                                <img className="posts__image-item" src={IMG1} alt="" />
+                                            </div>
+
+                                            <div classNmae="posts__content">
+                                                <h5>{title}</h5>
+                                                <small>{content}</small>
+                                            </div>
+                                        </div>
                                     </article>
                                 )
                             })
