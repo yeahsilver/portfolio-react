@@ -1,0 +1,27 @@
+.posts__container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.posts__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    /* text-align: center; */
+    transition: var(--transition);
+}
+
+.posts__card:hover {
+  background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default; 
+}
