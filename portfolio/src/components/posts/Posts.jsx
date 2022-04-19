@@ -29,25 +29,6 @@ const Posts = () => {
         })
     };
 
-    const showPosts = async() => {
-        if(posts != null) {
-            posts.map(({id, title, date, category, image, content, url}) => {
-                return(
-                    <div>
-                    <article className="posts__card" key={id}>
-                        <h5>{title}</h5>
-                        <small>{content}</small>
-                    </article>
-                    </div>
-                )
-            })
-        } else {
-            return (
-                <h5>데이터가 존재하지 않습니다</h5>
-            )
-        }
-    }
-
     useEffect(() => {
         getPosts();
         console.log(posts);
@@ -72,15 +53,15 @@ const Posts = () => {
                                             </div>
 
                                             <div classNmae="posts__content">
-                                                <h5>{title}</h5>
-                                                <small>{content}</small>
+                                                <h5 className="posts__content-title">{title}</h5>
+                                                <small className="posts__content-content">{content}</small>
                                             </div>
                                         </div>
                                     </article>
                                 )
                             })
                             :
-                            <h5>데이터 없음</h5>
+                            <h5>데이터가 존재하지 않습니다.</h5>
                         }
                     </div>
                 </div>
