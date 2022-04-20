@@ -34,6 +34,10 @@ const Posts = () => {
         console.log(posts);
     }, [])
 
+    const showBlog = blogURL => () => {
+        window.location = blogURL;
+    }
+
     return (
         <section id="posts">
             <h5>My Recent Blog</h5>
@@ -47,11 +51,10 @@ const Posts = () => {
                             posts.map(({id, title, date, category, image, content, url}) => {
                                 return(
                                     <article className="posts__card" key={id}>
-                                        <div className="posts__card__container">
+                                        <div className="posts__card__container" onClick={showBlog(url)}>
                                             <div className="posts__image">
                                                 <img className="posts__image-item" src={IMG1} alt="" />
                                             </div>
-
                                             <div classNmae="posts__content">
                                                 <h5 className="posts__content-title">{title}</h5>
                                                 <small className="posts__content-content">{content}</small>
