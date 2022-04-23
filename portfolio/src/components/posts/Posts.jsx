@@ -53,7 +53,7 @@ const Posts = () => {
                                     <article className="posts__card" key={id}>
                                         <div className="posts__card__container" onClick={showBlog(url)}>
                                             <div className="posts__image">
-                                                <img className="posts__image-item" src={IMG1} alt="" />
+                                                <img className="posts__image-item" src={image} alt="" />
                                             </div>
                                             <div classNmae="posts__content">
                                                 <h5 className="posts__content-title">{title}</h5>
