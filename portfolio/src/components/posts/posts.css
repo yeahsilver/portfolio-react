@@ -22,7 +22,6 @@
     border-radius: 1rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    /* text-align: center; */
     transition: var(--transition);
 }
 
@@ -33,10 +32,11 @@
 }
 
 .posts__image {
-    border-radius: 1.5rem;
-    height: 50%;
-    overflow: hidden;
+    border-radius: 1rem;
     margin: 1rem 2rem 1em 1rem; 
+    height: 10rem;
+    width: 30%;
+    overflow: hidden;
 }
 
 .posts__image img {
@@ -51,4 +51,26 @@
 
 .posts__content-content {
     color: lightgray;
+}
+
+@media screen and (max-width: 1024px) {
+    .posts__card__container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posts__image {
+        border-radius: 1.5rem;
+        height: 10rem;
+        width: 100%;
+        margin-left: 2rem;
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .posts__card__container {
+        display: flex;
+        flex-direction: column;
+    }
 }
