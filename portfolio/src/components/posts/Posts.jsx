@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import './posts.css';
-
-import IMG1 from '../../assets/bodymood.png';
 
 axios.defaults.withCredentials = true;
 
@@ -10,13 +8,12 @@ const Posts = () => {
     const url = "http://localhost:3030/api/posts";
     axios.defaults.withCredentials = true;
     const [posts, setPosts] = useState(null);
-    
-    let content = null;
 
     const getPosts = async () => {
         await axios.get(url)
         .then((res) => {
-            console.log(res.status)
+            console.log("GET Posts >> " + res.status);
+
             if(res.status === 200) {
                 setPosts(res.data)
             } else {
@@ -37,7 +34,7 @@ const Posts = () => {
     const showBlog = blogURL => () => {
         window.location = blogURL;
     }
-
+    
     return (
         <section id="posts">
             <h5>My Recent Blog</h5>
