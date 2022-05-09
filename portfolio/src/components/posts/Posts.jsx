@@ -38,10 +38,13 @@ const Posts = () => {
     return (
         <section id="posts">
             <h5>My Recent Blog</h5>
-            <h2>Posts</h2> 
+            <h2>Posts</h2>
 
             <div className="container posts__container">
                 <div className="posts_container">
+                    <div className="posts__more">
+                        <a href="https://blog.naver.com/0_0yeggy" target='_blank'>more ></a>
+                    </div>
                     <div className="posts_cards">
                         {
                             posts != null ? 
