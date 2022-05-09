@@ -5,7 +5,7 @@ import './posts.css';
 axios.defaults.withCredentials = true;
 
 const Posts = () => {
-    const url = "http://localhost:3030/api/posts";
+    const url = "https://yesilver.kr/api/posts";
     axios.defaults.withCredentials = true;
     const [posts, setPosts] = useState(null);
 
