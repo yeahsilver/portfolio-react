@@ -4,6 +4,13 @@
     align-items: center;
 }
 
+.posts__more {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 0 0.1rem 1rem 0;
+}
+
 .posts__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
